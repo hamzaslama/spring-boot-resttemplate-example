@@ -35,7 +35,7 @@ public class Application {
 	ClientHttpRequestFactory factory = new BufferingClientHttpRequestFactory(new SimpleClientHttpRequestFactory());
  
 	RestTemplate restTemplateReturn = new RestTemplate(factory);
-	//return builder.build(factory);
+	//return builder.build();
         return restTemplateReturn;
     }
 
